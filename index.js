@@ -33,7 +33,7 @@ const listarMetas = async () => {
     }
 
     metas.forEach((m) => {
-        meta.checked = false
+        m.checked = false
     })
 
     respostas.forEach((resposta) => {
